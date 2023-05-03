@@ -8,12 +8,18 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet var greenLabel: UILabel!
+    @IBOutlet var RedLabel: UILabel!
+    @IBOutlet var blueLabel: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
 
+    @IBAction func colorChange() {
+    }
 }
 
